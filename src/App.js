@@ -8,7 +8,7 @@ function App() {
         <h2>Welcome to Oluwatoyin's Personal Website</h2>
         <h3>Contact me: toyeentop@yahoo.com</h3>
         <h3><a href='https://www.linkedin.com' target='_blank'>LinkedIn</a></h3>
-        <h3><a href='https://toyeentop.github.io/Library-Project' target='_blank'>Github</a></h3>
+        <h3><a href='https://github.com/toyeentop/Library-Project' target='_blank'>Github</a></h3>
       
       <p>
           <a href='oluwatoyin_project_report.pdf' download={true} rel="noreferrer">Project Report</a>
