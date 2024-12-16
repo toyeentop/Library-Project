@@ -8,7 +8,10 @@ export const BOOK_DATA = [
     "pages": 112,
     "published": "2022-08-02 00:00:00",
     "year": 2023,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 2,
@@ -19,7 +22,10 @@ export const BOOK_DATA = [
     "pages": 368,
     "published": "2023-01-19 00:00:00",
     "year": 2023,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 3,
@@ -30,7 +36,10 @@ export const BOOK_DATA = [
     "pages": 184,
     "published": "2023-03-07 00:00:00",
     "year": 2023,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 4,
@@ -41,7 +50,11 @@ export const BOOK_DATA = [
     "pages": 252,
     "published": "2022-05-26 00:00:00",
     "year": 2023,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Temitope"
+  },
   {
     "id": 5,
     "isbn": 9781474623025,
@@ -51,7 +64,10 @@ export const BOOK_DATA = [
     "pages": 304,
     "published": "2022-04-21 00:00:00",
     "year": 2023,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 6,
@@ -62,7 +78,11 @@ export const BOOK_DATA = [
     "pages": 330,
     "published": "2022-09-27 00:00:00",
     "year": 2023,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Precious"
+  },
   {
     "id": 7,
     "isbn": 9781529427820,
@@ -72,7 +92,11 @@ export const BOOK_DATA = [
     "pages": 416,
     "published": "2023-04-27 00:00:00",
     "year": 2023,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Anna"
+  },
   {
     "id": 8,
     "isbn": 9781945492655,
@@ -82,7 +106,10 @@ export const BOOK_DATA = [
     "pages": 454,
     "published": "2023-01-24 00:00:00",
     "year": 2023,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 9,
@@ -93,7 +120,11 @@ export const BOOK_DATA = [
     "pages": 528,
     "published": "2023-03-30 00:00:00",
     "year": 2023,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Jordan"
+  },
   {
     "id": 10,
     "isbn": 9781782278627,
@@ -103,7 +134,10 @@ export const BOOK_DATA = [
     "pages": 224,
     "published": "2022-04-08 00:00:00",
     "year": 2023,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 11,
@@ -114,7 +148,10 @@ export const BOOK_DATA = [
     "pages": 200,
     "published": "2022-06-22 00:00:00",
     "year": 2023,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 12,
@@ -125,7 +162,11 @@ export const BOOK_DATA = [
     "pages": 544,
     "published": "2023-03-09 00:00:00",
     "year": 2023,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Sydney"
+  },
   {
     "id": 13,
     "isbn": 9781739822507,
@@ -135,7 +176,11 @@ export const BOOK_DATA = [
     "pages": 272,
     "published": "2022-05-16 00:00:00",
     "year": 2023,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Sirak"
+  },
   {
     "id": 14,
     "isbn": 9781913097875,
@@ -145,7 +190,10 @@ export const BOOK_DATA = [
     "pages": 118,
     "published": "2022-03-23 00:00:00",
     "year": 2022,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 15,
@@ -156,7 +204,10 @@ export const BOOK_DATA = [
     "pages": 167,
     "published": "2022-05-12 00:00:00",
     "year": 2022,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 16,
@@ -167,7 +218,10 @@ export const BOOK_DATA = [
     "pages": 217,
     "published": "2021-10-29 00:00:00",
     "year": 2022,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 17,
@@ -178,7 +232,10 @@ export const BOOK_DATA = [
     "pages": 151,
     "published": "2021-12-02 00:00:00",
     "year": 2022,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 18,
@@ -189,7 +246,11 @@ export const BOOK_DATA = [
     "pages": 143,
     "published": "2021-07-01 00:00:00",
     "year": 2022,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Devine"
+  },
   {
     "id": 19,
     "isbn": 9781982108786,
@@ -199,7 +260,10 @@ export const BOOK_DATA = [
     "pages": 224,
     "published": "2021-09-19 00:00:00",
     "year": 2022,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 20,
@@ -210,7 +274,10 @@ export const BOOK_DATA = [
     "pages": 288,
     "published": "2021-08-26 00:00:00",
     "year": 2022,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 21,
@@ -221,7 +288,10 @@ export const BOOK_DATA = [
     "pages": 232,
     "published": "2022-01-01 00:00:00",
     "year": 2022,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 22,
@@ -232,7 +302,10 @@ export const BOOK_DATA = [
     "pages": 228,
     "published": "2021-09-08 00:00:00",
     "year": 2022,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 23,
@@ -243,7 +316,11 @@ export const BOOK_DATA = [
     "pages": 158,
     "published": "2021-08-24 00:00:00",
     "year": 2022,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Donovan"
+  },
   {
     "id": 24,
     "isbn": 9781911284611,
@@ -253,7 +330,10 @@ export const BOOK_DATA = [
     "pages": 739,
     "published": "2021-08-12 00:00:00",
     "year": 2022,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 25,
@@ -264,7 +344,10 @@ export const BOOK_DATA = [
     "pages": 920,
     "published": "2021-11-15 00:00:00",
     "year": 2022,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 26,
@@ -275,7 +358,10 @@ export const BOOK_DATA = [
     "pages": 251,
     "published": "2021-06-15 00:00:00",
     "year": 2022,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 27,
@@ -286,7 +372,10 @@ export const BOOK_DATA = [
     "pages": 69,
     "published": "2021-01-07 00:00:00",
     "year": 2021,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 28,
@@ -297,7 +386,10 @@ export const BOOK_DATA = [
     "pages": 192,
     "published": "2020-09-03 00:00:00",
     "year": 2021,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 29,
@@ -308,7 +400,11 @@ export const BOOK_DATA = [
     "pages": 176,
     "published": "2020-06-02 00:00:00",
     "year": 2021,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Steven"
+  },
   {
     "id": 30,
     "isbn": 9781529400793,
@@ -318,7 +414,10 @@ export const BOOK_DATA = [
     "pages": 256,
     "published": "2020-08-20 00:00:00",
     "year": 2021,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 31,
@@ -329,7 +428,10 @@ export const BOOK_DATA = [
     "pages": 192,
     "published": "2020-11-05 00:00:00",
     "year": 2021,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 32,
@@ -340,7 +442,10 @@ export const BOOK_DATA = [
     "pages": 344,
     "published": "2020-05-19 00:00:00",
     "year": 2021,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 33,
@@ -351,7 +456,11 @@ export const BOOK_DATA = [
     "pages": 510,
     "published": "2021-02-17 00:00:00",
     "year": 2021,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Jawan"
+  },
   {
     "id": 34,
     "isbn": 9781913097172,
@@ -361,7 +470,10 @@ export const BOOK_DATA = [
     "pages": 144,
     "published": "2020-05-06 00:00:00",
     "year": 2021,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 35,
@@ -372,7 +484,10 @@ export const BOOK_DATA = [
     "pages": 285,
     "published": "2021-04-08 00:00:00",
     "year": 2021,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 36,
@@ -383,7 +498,11 @@ export const BOOK_DATA = [
     "pages": 187,
     "published": "2021-04-01 00:00:00",
     "year": 2021,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Shayla"
+  },
   {
     "id": 37,
     "isbn": 9781999992880,
@@ -393,7 +512,11 @@ export const BOOK_DATA = [
     "pages": 136,
     "published": "2020-10-01 00:00:00",
     "year": 2021,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Nidra"
+  },
   {
     "id": 38,
     "isbn": 9781908670601,
@@ -403,7 +526,10 @@ export const BOOK_DATA = [
     "pages": 163,
     "published": "2020-10-30 00:00:00",
     "year": 2021,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 39,
@@ -414,7 +540,10 @@ export const BOOK_DATA = [
     "pages": 240,
     "published": "2020-10-06 00:00:00",
     "year": 2021,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 40,
@@ -425,7 +554,11 @@ export const BOOK_DATA = [
     "pages": 200,
     "published": "2019-11-14 00:00:00",
     "year": 2020,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Edith"
+  },
   {
     "id": 41,
     "isbn": 9780571349364,
@@ -435,7 +568,10 @@ export const BOOK_DATA = [
     "pages": 282,
     "published": "2020-03-05 00:00:00",
     "year": 2020,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 42,
@@ -446,7 +582,11 @@ export const BOOK_DATA = [
     "pages": 944,
     "published": "2019-11-14 00:00:00",
     "year": 2020,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Dawn"
+  },
   {
     "id": 43,
     "isbn": 9781609455651,
@@ -456,7 +596,10 @@ export const BOOK_DATA = [
     "pages": 256,
     "published": "2020-01-17 00:00:00",
     "year": 2020,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 44,
@@ -467,7 +610,10 @@ export const BOOK_DATA = [
     "pages": 277,
     "published": "2019-08-15 00:00:00",
     "year": 2020,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 45,
@@ -478,7 +624,11 @@ export const BOOK_DATA = [
     "pages": 351,
     "published": "2019-10-10 00:00:00",
     "year": 2020,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Xavier"
+  },
   {
     "id": 46,
     "isbn": 9781529403657,
@@ -488,7 +638,10 @@ export const BOOK_DATA = [
     "pages": 352,
     "published": "2020-02-06 00:00:00",
     "year": 2020,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 47,
@@ -499,7 +652,10 @@ export const BOOK_DATA = [
     "pages": 136,
     "published": "2019-10-22 00:00:00",
     "year": 2020,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 48,
@@ -510,7 +666,10 @@ export const BOOK_DATA = [
     "pages": 229,
     "published": "2020-02-19 00:00:00",
     "year": 2020,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 49,
@@ -521,7 +680,10 @@ export const BOOK_DATA = [
     "pages": 256,
     "published": "2020-04-16 00:00:00",
     "year": 2020,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 50,
@@ -532,7 +694,10 @@ export const BOOK_DATA = [
     "pages": 224,
     "published": "2019-06-06 00:00:00",
     "year": 2020,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 51,
@@ -543,7 +708,10 @@ export const BOOK_DATA = [
     "pages": 432,
     "published": "2019-06-06 00:00:00",
     "year": 2020,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 52,
@@ -554,7 +722,11 @@ export const BOOK_DATA = [
     "pages": 320,
     "published": "2019-09-26 00:00:00",
     "year": 2020,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Stanley"
+  },
   {
     "id": 53,
     "isbn": 9781911617235,
@@ -564,7 +736,10 @@ export const BOOK_DATA = [
     "pages": 192,
     "published": "2018-11-19 00:00:00",
     "year": 2019,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 54,
@@ -575,7 +750,10 @@ export const BOOK_DATA = [
     "pages": 243,
     "published": "2018-05-21 00:00:00",
     "year": 2019,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 55,
@@ -586,7 +764,10 @@ export const BOOK_DATA = [
     "pages": 270,
     "published": "2019-01-01 00:00:00",
     "year": 2019,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 56,
@@ -597,7 +778,10 @@ export const BOOK_DATA = [
     "pages": 160,
     "published": "2018-10-04 00:00:00",
     "year": 2019,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 57,
@@ -608,7 +792,10 @@ export const BOOK_DATA = [
     "pages": 162,
     "published": "2019-01-03 00:00:00",
     "year": 2019,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 58,
@@ -619,7 +806,10 @@ export const BOOK_DATA = [
     "pages": 288,
     "published": "2018-11-20 00:00:00",
     "year": 2019,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 59,
@@ -630,7 +820,10 @@ export const BOOK_DATA = [
     "pages": 228,
     "published": "2019-02-07 00:00:00",
     "year": 2019,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 60,
@@ -641,7 +834,10 @@ export const BOOK_DATA = [
     "pages": 112,
     "published": "2019-01-10 00:00:00",
     "year": 2019,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 61,
@@ -652,7 +848,10 @@ export const BOOK_DATA = [
     "pages": 338,
     "published": "2019-03-21 00:00:00",
     "year": 2019,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 62,
@@ -663,7 +862,10 @@ export const BOOK_DATA = [
     "pages": 180,
     "published": "2019-03-21 00:00:00",
     "year": 2019,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 63,
@@ -674,7 +876,11 @@ export const BOOK_DATA = [
     "pages": 193,
     "published": "2018-10-04 00:00:00",
     "year": 2019,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Adedeji"
+  },
   {
     "id": 64,
     "isbn": 9780857056580,
@@ -684,7 +890,10 @@ export const BOOK_DATA = [
     "pages": 512,
     "published": "2018-05-03 00:00:00",
     "year": 2019,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 65,
@@ -695,7 +904,11 @@ export const BOOK_DATA = [
     "pages": 232,
     "published": "2018-06-20 00:00:00",
     "year": 2019,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Ogechi"
+  },
   {
     "id": 66,
     "isbn": 9781786070609,
@@ -705,7 +918,10 @@ export const BOOK_DATA = [
     "pages": 272,
     "published": "2018-02-01 00:00:00",
     "year": 2018,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 67,
@@ -716,7 +932,10 @@ export const BOOK_DATA = [
     "pages": 368,
     "published": "2017-08-07 00:00:00",
     "year": 2018,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 68,
@@ -727,7 +946,10 @@ export const BOOK_DATA = [
     "pages": 320,
     "published": "2017-11-02 00:00:00",
     "year": 2018,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 69,
@@ -738,7 +960,10 @@ export const BOOK_DATA = [
     "pages": 390,
     "published": "2017-05-03 00:00:00",
     "year": 2018,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 70,
@@ -749,7 +974,10 @@ export const BOOK_DATA = [
     "pages": 160,
     "published": "2018-03-01 00:00:00",
     "year": 2018,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 71,
@@ -760,7 +988,10 @@ export const BOOK_DATA = [
     "pages": 336,
     "published": "2018-03-31 00:00:00",
     "year": 2018,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 72,
@@ -771,7 +1002,10 @@ export const BOOK_DATA = [
     "pages": 430,
     "published": "2017-11-02 00:00:00",
     "year": 2018,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 73,
@@ -782,7 +1016,11 @@ export const BOOK_DATA = [
     "pages": 416,
     "published": "2017-08-28 00:00:00",
     "year": 2018,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Jeremiah"
+  },
   {
     "id": 74,
     "isbn": 9780525573067,
@@ -792,7 +1030,11 @@ export const BOOK_DATA = [
     "pages": 161,
     "published": "2018-04-05 00:00:00",
     "year": 2018,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Temitope"
+  },
   {
     "id": 75,
     "isbn": 9781788160124,
@@ -802,7 +1044,11 @@ export const BOOK_DATA = [
     "pages": 320,
     "published": "2018-05-31 00:00:00",
     "year": 2018,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Jared"
+  },
   {
     "id": 76,
     "isbn": 9780857055422,
@@ -812,7 +1058,10 @@ export const BOOK_DATA = [
     "pages": 352,
     "published": "2018-03-22 00:00:00",
     "year": 2018,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   },
   {
     "id": 77,
@@ -823,7 +1072,11 @@ export const BOOK_DATA = [
     "pages": 123,
     "published": "2017-09-14 00:00:00",
     "year": 2018,
-    "status": "Not Available"  },
+    "status": "Not Available",
+    "date_borrowed": "2024-12-09",
+    "expected_return_date": "2024-12-23",
+    "borrowed_by": "Adedeji"
+  },
   {
     "id": 78,
     "isbn": 9781910695432,
@@ -833,129 +1086,132 @@ export const BOOK_DATA = [
     "pages": 410,
     "published": "2017-05-17 00:00:00",
     "year": 2018,
-    "status": "Available"
+    "status": "Available",
+    "date_borrowed": "",
+    "expected_return_date": "",
+    "borrowed_by": ""
   }
 ]
 
 export const STUDENT_DATA = [
   {
-    "id": 2,
-    "first_name": "PRECIOUS",
-    "last_name": "ADELAKUN"
-  },
-  {
-    "id": 3,
-    "first_name": "ANNA",
-    "last_name": "AFOAKWAH"
-  },
-  {
-    "id": 4,
-    "first_name": "JORDAN",
-    "last_name": "BERTRAND"
-  },
-  {
-    "id": 5,
     "first_name": "SYDNEY",
-    "last_name": "BRUTUS"
+    "last_name": "BRUTUS",
+    "group_name": "GROUP A"
   },
   {
-    "id": 6,
-    "first_name": "SIRAK",
-    "last_name": "CHAMISO"
-  },
-  {
-    "id": 7,
-    "first_name": "DEVINE",
-    "last_name": "CHINEMERE"
-  },
-  {
-    "id": 8,
-    "first_name": "VARUNKUMARREDDY",
-    "last_name": "DODDA"
-  },
-  {
-    "id": 9,
     "first_name": "DONOVAN",
-    "last_name": "FAUCETTE"
+    "last_name": "FAUCETTE",
+    "group_name": "GROUP A"
   },
   {
-    "id": 10,
-    "first_name": "STEVEN",
-    "last_name": "FINGOLD"
-  },
-  {
-    "id": 11,
-    "first_name": "JAWAN",
-    "last_name": "FOSTER"
-  },
-  {
-    "id": 12,
-    "first_name": "SHAYLA",
-    "last_name": "HARRIS"
-  },
-  {
-    "id": 13,
     "first_name": "NIDRA",
-    "last_name": "HAYES"
+    "last_name": "HAYES",
+    "group_name": "GROUP A"
   },
   {
-    "id": 14,
-    "first_name": "EDITH",
-    "last_name": "JIOKENGBOGNI"
-  },
-  {
-    "id": 15,
-    "first_name": "OLUWATOYIN",
-    "last_name": "KODE"
-  },
-  {
-    "id": 16,
-    "first_name": "EDDY",
-    "last_name": "KOUNDJOUYEM"
-  },
-  {
-    "id": 17,
     "first_name": "DAWN",
-    "last_name": "MARSHALL"
+    "last_name": "MARSHALL",
+    "group_name": "GROUP A"
   },
   {
-    "id": 18,
-    "first_name": "XAVIER",
-    "last_name": "MEDY"
-  },
-  {
-    "id": 19,
-    "first_name": "STANLEY",
-    "last_name": "OGBUMUO"
-  },
-  {
-    "id": 20,
-    "first_name": "ADEDEJI",
-    "last_name": "OLUDAYO"
-  },
-  {
-    "id": 21,
     "first_name": "OGECHI",
-    "last_name": "ONYEKWERE"
+    "last_name": "ONYEKWERE",
+    "group_name": "GROUP A"
   },
   {
-    "id": 22,
-    "first_name": "JEREMIAH",
-    "last_name": "OSUNJIMI"
-  },
-  {
-    "id": 23,
-    "first_name": "TEMITOPE",
-    "last_name": "OYEMADE"
-  },
-  {
-    "id": 24,
-    "first_name": "JARED",
-    "last_name": "ROBINSON"
-  },
-  {
-    "id": 25,
     "first_name": "DMARQCO",
-    "last_name": "RODGERS"
+    "last_name": "RODGERS",
+    "group_name": "GROUP A"
+  },
+  {
+    "first_name": "PRECIOUS",
+    "last_name": "ADELAKUN",
+    "group_name": "GROUP B"
+  },
+  {
+    "first_name": "SIRAK",
+    "last_name": "CHAMISO",
+    "group_name": "GROUP B"
+  },
+  {
+    "first_name": "STEVEN",
+    "last_name": "FINGOLD",
+    "group_name": "GROUP B"
+  },
+  {
+    "first_name": "EDITH",
+    "last_name": "JIOKENGBOGNI",
+    "group_name": "GROUP B"
+  },
+  {
+    "first_name": "XAVIER",
+    "last_name": "MEDY",
+    "group_name": "GROUP B"
+  },
+  {
+    "first_name": "JEREMIAH",
+    "last_name": "OSUNJIMI",
+    "group_name": "GROUP B"
+  },
+  {
+    "first_name": "ANNA",
+    "last_name": "AFOAKWAH",
+    "group_name": "GROUP C"
+  },
+  {
+    "first_name": "DEVINE",
+    "last_name": "CHINEMERE",
+    "group_name": "GROUP C"
+  },
+  {
+    "first_name": "JAWAN",
+    "last_name": "FOSTER",
+    "group_name": "GROUP C"
+  },
+  {
+    "first_name": "OLUWATOYIN",
+    "last_name": "KODE",
+    "group_name": "GROUP C"
+  },
+  {
+    "first_name": "STANLEY",
+    "last_name": "OGBUMUO",
+    "group_name": "GROUP C"
+  },
+  {
+    "first_name": "TEMITOPE",
+    "last_name": "OYEMADE",
+    "group_name": "GROUP C"
+  },
+  {
+    "first_name": "JORDAN",
+    "last_name": "BERTRAND",
+    "group_name": "GROUP D"
+  },
+  {
+    "first_name": "VARUNKUMARREDDY",
+    "last_name": "DODDA",
+    "group_name": "GROUP D"
+  },
+  {
+    "first_name": "SHAYLA",
+    "last_name": "HARRIS",
+    "group_name": "GROUP D"
+  },
+  {
+    "first_name": "EDDY",
+    "last_name": "KOUNDJOUYEM",
+    "group_name": "GROUP D"
+  },
+  {
+    "first_name": "ADEDEJI",
+    "last_name": "OLUDAYO",
+    "group_name": "GROUP D"
+  },
+  {
+    "first_name": "JARED",
+    "last_name": "ROBINSON",
+    "group_name": "GROUP D"
   }
 ]

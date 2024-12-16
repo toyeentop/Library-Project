@@ -1,7 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
-function App() {
+const App: React.FC = () => {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const isAuthenticated = localStorage.getItem('authenticated');
+    if (!isAuthenticated) {
+      navigate('/login');
+    }
+  }, [navigate]);
   return (
     <div className="App">
       <header className="">

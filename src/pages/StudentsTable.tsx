@@ -19,7 +19,7 @@ interface Column {
 }
 
 const columns: readonly Column[] = [
-  { id: 'id', label: 'ID', minWidth: 50 },
+  { id: 'group_name', label: 'Group Name', minWidth: 50 },
   { id: 'first_name', label: 'First Name', minWidth: 150 },
   { id: 'last_name', label: 'Last Name', minWidth: 200 },
 ];
@@ -53,7 +53,8 @@ export default function StudentsDataTable() {
     setSearch(value);
     setFilteredRows(rows.filter(row => 
         row.first_name.toLowerCase().includes(value) || 
-        row.last_name.toLowerCase().includes(value)
+        row.last_name.toLowerCase().includes(value) ||
+        row.group_name.toLowerCase().includes(value)
 ));
   };
 
@@ -61,7 +62,7 @@ export default function StudentsDataTable() {
     <div>
       <h2>Student Data</h2>
       <TextField
-        label="Search by first/last name"
+        label="Search by first/last/group name"
         variant="outlined"
         value={search}
         onChange={handleSearch}

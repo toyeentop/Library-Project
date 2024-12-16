@@ -20,14 +20,13 @@ interface Column {
 
 const columns: readonly Column[] = [
   { id: 'id', label: 'ID', minWidth: 50 },
-  { id: 'isbn', label: 'ISBN', minWidth: 150 },
   { id: 'title', label: 'Title', minWidth: 200 },
-  { id: 'publisher_id', label: 'Publisher ID', minWidth: 100, align: 'right' },
-  { id: 'format', label: 'Format', minWidth: 100 },
-  { id: 'pages', label: 'Pages', minWidth: 100, align: 'right' },
   { id: 'published', label: 'Published Date', minWidth: 150 },
   { id: 'year', label: 'Year', minWidth: 100, align: 'right' },
-  { id: 'status', label: 'Status', minWidth: 100, align: 'right' },
+  { id: 'borrowed_by', label: 'Borrowed By', minWidth: 100, align: 'right' },
+  { id: 'date_borrowed', label: 'Date Borrowed', minWidth: 150 },
+  { id: 'expected_return_date', label: 'Expected Return Date', minWidth: 150 },
+  { id: 'status', label: 'Status', minWidth: 100, align: 'right' }
 ];
 
 export default function BookDataTable() {
@@ -57,7 +56,12 @@ export default function BookDataTable() {
   const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value.toLowerCase();
     setSearch(value);
-    setFilteredRows(rows.filter(row => row.title.toLowerCase().includes(value)));
+    setFilteredRows(rows.filter(row => row.title.toLowerCase().includes(value) ||
+    row.status.toLowerCase().includes(value) ||
+    row.date_borrowed.toLowerCase().includes(value) ||
+    row.year.toString().toLowerCase().includes(value) ||
+    row.borrowed_by.toString().toLowerCase().includes(value)
+  ));
   };
 
   return (
